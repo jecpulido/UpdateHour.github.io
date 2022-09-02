@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <title>Test midutime</title>
+  </head>
+  <body class="toast">
+    <wc-toast></wc-toast>
+    <main class="container">
+      <form action="">
+        <label>
+          Selecciona una fecha
+          <input type="datetime-local" name="date" value="2022-09-13T17:00">
+        </label>
+      </form>
+      <label>
+        Resultado:
+        <textarea readonly name="dates" placeholder="Aquí aparece el resultado..." cols="30" rows="6"></textarea>      
+      </label>
+
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
